@@ -266,11 +266,19 @@ footer {
   }
 
   #img-caption {
-    position: sticky;
-    width: 40%;
     margin-top: -50vw;
-    left: 10vw;
-    font-size: 2vw;
-    color: gray;
+  }
+
+  #about {
+    grid-template-columns: 80%;
+  }
+
+  #tribute-link {
+    padding-top: 15vw;
+    font-size: 15px;
+  }
+
+  #trivia-container h1 {
+    padding-top: 3vh;
   }
 }
